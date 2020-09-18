@@ -12,7 +12,6 @@
 	<artifactId>integrador-fazendinha</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>integrador-fazendinha</name>
-	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>11</java.version>
@@ -115,4 +114,5 @@
 		</plugins>
 	</build>
 
+	<description>Projeto integrador back-end referente a aplicação de gerenciamento de Chacaras e propriedades rurais pequenas.</description>
 </project>

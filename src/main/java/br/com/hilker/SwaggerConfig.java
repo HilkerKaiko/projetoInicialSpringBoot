@@ -31,7 +31,7 @@ public class SwaggerConfig {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("br.com.fujioka"))
+				.apis(RequestHandlerSelectors.basePackage("br.com.hilker"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(apiInfo())
@@ -45,7 +45,7 @@ public class SwaggerConfig {
 				description, 
 				version, 
 				organization,
-				new Contact("Desenvolvimento", "", "fujiokades@fujioka.com.br"), 
+				new Contact("Desenvolvimento", "", "hilkerkaiko@gmail.com"), 
 				"", 
 				"", 
 				Collections.emptyList());			
